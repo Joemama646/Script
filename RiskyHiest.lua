@@ -875,7 +875,7 @@ local function standAndBreak(n, hits)
         if r and (r.Position - pos).Magnitude > 8 then
             moveTo(CFrame.new(pos))
         end
-        task.wait(0.2)
+        task.wait(0.4)
     end
     brokenStages[n] = true
     return "timeout"
