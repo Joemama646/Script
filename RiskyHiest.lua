@@ -142,7 +142,7 @@ local S = {
     AutoRebirth = false,
     AutoSell = false,
 
-    MaxHits = 10,
+    MaxHits = 100,
     MinStage = 1,
     MaxStage = TOTAL,
     Capacity = 1,
